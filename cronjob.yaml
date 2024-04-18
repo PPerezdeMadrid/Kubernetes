@@ -1,0 +1,17 @@
+# cronjob.yaml
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: mi-cronjob
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: python-task-container
+            image: imagen_practica_sie_kubernetes  # nombre imagen del pod anterior
+            imagePullPolicy: Never
+          restartPolicy: OnFailure
+

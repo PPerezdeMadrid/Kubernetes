@@ -1,0 +1,5 @@
+1) Averiguar el NAMESPACE: kubectl config view --minify --output 'jsonpath={..namespace}'
+2) Detener recursos: kubectl config set-context --current --namespace=TU_NAMESPACE 
+3) DEtener todos los recursos: kubectl delete all --all
+
+>>  Si lo quieres volver a ejejutar: kubectl apply -f archivo.yaml

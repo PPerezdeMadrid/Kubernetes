@@ -1,0 +1,10 @@
+# Archivo YAML pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: python-task-pod
+spec:
+  containers:
+  - name: python-task-container
+    image: imagen_practica_sie_kubernetes
+    imagePullPolicy: Never

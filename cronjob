@@ -1,0 +1,60 @@
+Name:                          mi-cronjob
+Namespace:                     default
+Labels:                        <none>
+Annotations:                   <none>
+Schedule:                      */1 * * * *
+Concurrency Policy:            Allow
+Suspend:                       False
+Successful Job History Limit:  3
+Failed Job History Limit:      1
+Starting Deadline Seconds:     <unset>
+Selector:                      <unset>
+Parallelism:                   <unset>
+Completions:                   <unset>
+Pod Template:
+  Labels:  <none>
+  Containers:
+   python-task-container:
+    Image:           imagen_practica_sie_kubernetes
+    Port:            <none>
+    Host Port:       <none>
+    Environment:     <none>
+    Mounts:          <none>
+  Volumes:           <none>
+Last Schedule Time:  Sun, 14 Apr 2024 01:43:00 -0700
+Active Jobs:         mi-cronjob-28547615, mi-cronjob-28547616, mi-cronjob-28547617, mi-cronjob-28547618, mi-cronjob-28547619, mi-cronjob-28547620, mi-cronjob-28547621, mi-cronjob-28547622, mi-cronjob-28547623, mi-cronjob-28547624, mi-cronjob-28547625, mi-cronjob-28547626, mi-cronjob-28547627, mi-cronjob-28547628, mi-cronjob-28547629, mi-cronjob-28547630, mi-cronjob-28547631, mi-cronjob-28547632, mi-cronjob-28547633, mi-cronjob-28547634, mi-cronjob-28547635, mi-cronjob-28547636, mi-cronjob-28547637, mi-cronjob-28547638, mi-cronjob-28547639, mi-cronjob-28547640, mi-cronjob-28547641, mi-cronjob-28547642, mi-cronjob-28547643, mi-cronjob-28547644, mi-cronjob-28547645, mi-cronjob-28547646, mi-cronjob-28547647, mi-cronjob-28547648, mi-cronjob-28547649, mi-cronjob-28547650, mi-cronjob-28547651, mi-cronjob-28547652, mi-cronjob-28547653, mi-cronjob-28547654, mi-cronjob-28547655, mi-cronjob-28547656, mi-cronjob-28547657, mi-cronjob-28547658, mi-cronjob-28547659, mi-cronjob-28547660, mi-cronjob-28547661, mi-cronjob-28547662, mi-cronjob-28547663, mi-cronjob-28547664, mi-cronjob-28547665, mi-cronjob-28547666, mi-cronjob-28547667, mi-cronjob-28547668, mi-cronjob-28547669, mi-cronjob-28548653, mi-cronjob-28548654, mi-cronjob-28548655, mi-cronjob-28548656, mi-cronjob-28548657, mi-cronjob-28548658, mi-cronjob-28548659, mi-cronjob-28548660, mi-cronjob-28548661, mi-cronjob-28548662, mi-cronjob-28548663, mi-cronjob-28548664, mi-cronjob-28548665, mi-cronjob-28548666, mi-cronjob-28548667, mi-cronjob-28548668, mi-cronjob-28548669, mi-cronjob-28548670, mi-cronjob-28548671, mi-cronjob-28548672, mi-cronjob-28548673, mi-cronjob-28548674, mi-cronjob-28548675, mi-cronjob-28548676, mi-cronjob-28548677, mi-cronjob-28548678, mi-cronjob-28548679, mi-cronjob-28548680, mi-cronjob-28548681, mi-cronjob-28548682, mi-cronjob-28548683, mi-cronjob-28548684, mi-cronjob-28548685, mi-cronjob-28548686, mi-cronjob-28548687, mi-cronjob-28548688, mi-cronjob-28548693, mi-cronjob-28548694, mi-cronjob-28548695, mi-cronjob-28548696, mi-cronjob-28548697, mi-cronjob-28548698, mi-cronjob-28548699, mi-cronjob-28548700, mi-cronjob-28548701, mi-cronjob-28548702, mi-cronjob-28548703, mi-cronjob-28548704, mi-cronjob-28548705, mi-cronjob-28548706, mi-cronjob-28548707, mi-cronjob-28548708, mi-cronjob-28548709, mi-cronjob-28548710, mi-cronjob-28548711, mi-cronjob-28548712, mi-cronjob-28548713, mi-cronjob-28548714, mi-cronjob-28548715, mi-cronjob-28548716, mi-cronjob-28548717, mi-cronjob-28548718, mi-cronjob-28551376, mi-cronjob-28551377, mi-cronjob-28551378, mi-cronjob-28551379, mi-cronjob-28551380, mi-cronjob-28551381, mi-cronjob-28551382, mi-cronjob-28551383, mi-cronjob-28551384, mi-cronjob-28551385, mi-cronjob-28551386, mi-cronjob-28551389, mi-cronjob-28551390, mi-cronjob-28551391, mi-cronjob-28551392, mi-cronjob-28551393, mi-cronjob-28551394, mi-cronjob-28551395, mi-cronjob-28551396, mi-cronjob-28551397, mi-cronjob-28551398, mi-cronjob-28551399, mi-cronjob-28551400, mi-cronjob-28551401, mi-cronjob-28551402, mi-cronjob-28551403
+Events:
+  Type     Reason              Age                   From                Message
+  ----     ------              ----                  ----                -------
+  Normal   SuccessfulCreate    45h (x78 over 2d14h)  cronjob-controller  (combined from similar events): Created job mi-cronjob-28548684
+  Normal   SuccessfulCreate    45h                   cronjob-controller  Created job mi-cronjob-28548693
+  Normal   SuccessfulCreate    45h                   cronjob-controller  Created job mi-cronjob-28548694
+  Normal   SuccessfulCreate    45h                   cronjob-controller  Created job mi-cronjob-28548695
+  Normal   SuccessfulCreate    45h                   cronjob-controller  Created job mi-cronjob-28548696
+  Normal   SuccessfulCreate    45h                   cronjob-controller  Created job mi-cronjob-28548697
+  Normal   SuccessfulCreate    45h                   cronjob-controller  Created job mi-cronjob-28548698
+  Normal   SuccessfulCreate    45h                   cronjob-controller  Created job mi-cronjob-28548699
+  Normal   SuccessfulCreate    45h                   cronjob-controller  Created job mi-cronjob-28548700
+  Normal   SuccessfulCreate    45h                   cronjob-controller  Created job mi-cronjob-28548701
+  Normal   SuccessfulCreate    44h (x17 over 45h)    cronjob-controller  (combined from similar events): Created job mi-cronjob-28548718
+  Warning  TooManyMissedTimes  26m                   cronjob-controller  too many missed start times. Set or decrease .spec.startingDeadlineSeconds or check clock skew
+  Normal   SuccessfulCreate    26m                   cronjob-controller  Created job mi-cronjob-28551376
+  Normal   SuccessfulCreate    26m                   cronjob-controller  Created job mi-cronjob-28551377
+  Normal   SuccessfulCreate    25m                   cronjob-controller  Created job mi-cronjob-28551378
+  Normal   SuccessfulCreate    24m                   cronjob-controller  Created job mi-cronjob-28551379
+  Normal   SuccessfulCreate    23m                   cronjob-controller  Created job mi-cronjob-28551380
+  Normal   SuccessfulCreate    22m                   cronjob-controller  Created job mi-cronjob-28551381
+  Normal   SuccessfulCreate    21m                   cronjob-controller  Created job mi-cronjob-28551382
+  Normal   SuccessfulCreate    20m                   cronjob-controller  Created job mi-cronjob-28551383
+  Normal   SuccessfulCreate    19m                   cronjob-controller  Created job mi-cronjob-28551384
+  Normal   SuccessfulCreate    17m (x2 over 18m)     cronjob-controller  (combined from similar events): Created job mi-cronjob-28551386
+  Normal   SuccessfulCreate    14m                   cronjob-controller  Created job mi-cronjob-28551389
+  Normal   SuccessfulCreate    13m                   cronjob-controller  Created job mi-cronjob-28551390
+  Normal   SuccessfulCreate    12m                   cronjob-controller  Created job mi-cronjob-28551391
+  Normal   SuccessfulCreate    11m                   cronjob-controller  Created job mi-cronjob-28551392
+  Normal   SuccessfulCreate    10m                   cronjob-controller  Created job mi-cronjob-28551393
+  Normal   SuccessfulCreate    9m11s                 cronjob-controller  Created job mi-cronjob-28551394
+  Normal   SuccessfulCreate    8m11s                 cronjob-controller  Created job mi-cronjob-28551395
+  Normal   SuccessfulCreate    7m11s                 cronjob-controller  Created job mi-cronjob-28551396
+  Normal   SuccessfulCreate    6m11s                 cronjob-controller  Created job mi-cronjob-28551397
+  Normal   SuccessfulCreate    11s (x6 over 5m11s)   cronjob-controller  (combined from similar events): Created job mi-cronjob-28551403
